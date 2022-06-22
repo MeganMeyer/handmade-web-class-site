@@ -1,0 +1,52 @@
+body {
+  background-color: aliceblue;
+  color: midnightblue;
+  font-family: cursive;
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  border: 2px solid black;
+  outline: #20B2AA solid 10px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+a {
+  color: green;
+  cursor: col-resize;
+  text-decoration: overline;
+}
+
+
+a:hover {
+  color: black;
+  text-decoration: line-through;
+}
+
+
+.special {
+  color: cornsilk;
+  background-color: olive;
+  text-align: center;
+}
+
+
+.good {
+  border: 3px dashed lightblue;
+  padding: 10px;
+}
+
+.center {
+  display: block;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

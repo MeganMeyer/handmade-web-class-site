@@ -1,0 +1,28 @@
+p {
+  background-color: aliceblue;
+  font-size: 30px;
+  border: 3px dashed lavender;
+  padding: 20px;
+}
+
+a {
+  color: pink;
+  cursor: cell;
+  text-decoration: overline;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: line-through;
+  font-size: 30px;
+}
+
+.special {
+  color: cornsilk;
+  background-color: lightgreen;
+  font-size: 60px;
+}
+
+.good {
+  border: 3px dashed lightblue;
+}
