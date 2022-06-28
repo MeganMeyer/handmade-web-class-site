@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+.total-container {
+  background: beige;
+  height: 100vh;
+}
+
+
+
+.top-container {
+  display: flex;
+  background: darkkhaki;
+  height: 20%;
+  gap: 10px;
+  padding: 10px;
+}
+
+
+
+.top-item {
+  background: gainsboro;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.bottom-container {
+  background: cornsilk;
+  height: 80%
+}
