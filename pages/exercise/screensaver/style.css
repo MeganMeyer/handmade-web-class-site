@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+      background: linear-gradient(90deg, #a65e70 0%, #4885ab 33%, #5d7d57 100%);
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: ghostwhite;
+  width: 150px;
+  height: 150px;
+  animation-name: pulse;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3s;
+}
+
+@keyframes pulse {
+  0% {
+    background: ghostwhite;
+    transform: scale(1) rotate(-180deg);
+  }
+
+  50% {
+    background: seashell;
+    transform: scale(.3);
+    border-radius: 50%;
+  }
+
+  100% {
+    background: ghostwhite;
+    transform: scale(1) rotateY(180deg);
+  }
+}

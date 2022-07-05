@@ -1,5 +1,7 @@
 body {
   background-color: ghostwhite;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .column {
@@ -13,4 +15,32 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.box {
+  max-width: 300px;
+  background: honeydew;
+  border: 1px dashed grey;
+  align-self: center;
+  margin: auto;
+}
+
+a {
+  color: green;
+  cursor: col-resize;
+  text-decoration: overline;
+}
+
+a:hover {
+  color: black;
+  text-decoration: line-through;
 }

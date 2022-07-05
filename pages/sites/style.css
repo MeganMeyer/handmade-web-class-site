@@ -3,6 +3,35 @@
 }
 
 body {
-  background-color: ghostwhite;
-  font-family: notcouriersansregular, monospace
+    background-color: ghostwhite;
+    font-family: helvetica, sans-serif;
+    font-size: 12px;
+}
+
+h2 {
+  color: midnightblue;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.box {
+  max-width: 300px;
+  background: lightsteelblue;
+  border: 1px dashed grey;
+  align-self: center;
+  margin: auto;
+}
+
+a {
+  color: midnightblue;
+  cursor: col-resize;
+  text-decoration: overline;
+}
+
+a:hover {
+  color: black;
+  text-decoration: line-through;
 }

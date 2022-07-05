@@ -2,7 +2,24 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: ghostwhite;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+}
+
+p {
+    color: red;
+    padding: 5px 50px 30px 50px;
+}
+
+a {
+  color: red;
+  cursor: col-resize;
+  text-decoration: overline;
+}
+
+a:hover {
+  color: black;
+  text-decoration: line-through;
 }
