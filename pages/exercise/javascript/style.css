@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 300px;
+  min-height: 500px;
+  background-color: lightslategrey;
+  color: white;
+  font-size: 14px;
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  right:-400px;
+  transition: .5s;
+}
+
+.active {
+  right: 0;
+}
+
+button {
+  background-color: mediumseagreen;
+  padding: 20px;
+  border:1px solid lightgreen;
+  margin: 20px;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color: lightyellow;
+}
+
+.marquee {
+  overflow: hidden;
+  border:1px solid #ccc;
+  position:fixed;
+  bottom:0;
+  left:0;
+  font-size: 30px;
+  background-color: lightyellow;
+  padding: 20px;
+}
