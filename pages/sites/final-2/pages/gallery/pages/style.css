@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: helvetica, sans-serif;
+}
+
+h3 {
+  color: darkgrey;
+  text-align:left;
+  padding: 0px 400px 20px 25px;
+}
+
+p {
+  color: darkgrey;
+  padding: 0px 400px 0px 150px;
+}
+
+a {
+  color: darkslategrey;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: mediumspringgreen;
+  text-decoration: none;
+}
+
+.special {
+    font-size: 16pt;
+    padding: 0px 400px 20px 40px;
+}

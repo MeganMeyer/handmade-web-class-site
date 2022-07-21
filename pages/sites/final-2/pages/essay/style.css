@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: courier, monospace;
+}
+
+h3 {
+  color: darkgrey;
+  text-align:left;
+  padding: 0px 400px 20px 25px;
+}
+
+p {
+  color: darkgrey;
+  padding: 5px 400px 30px 150px;
+}
+
+a {
+  color: darkslategrey;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: mediumspringgreen;
+  text-decoration: none;
+}
+
+.special {
+    font-size: 16pt;
+    padding: 0px 400px 20px 0px;
+
+.center {
+      display: block;
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .center {
+      display: block;
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
