@@ -8,13 +8,21 @@ body {
   font-size: 12px;
 }
 
+h2 {
+  color: dimgrey;
+}
+
+h3 {
+  color: dimgrey;
+}
+
 p {
-    color: red;
+    color: grey;
     padding: 5px 50px 30px 50px;
 }
 
 a {
-  color: red;
+  color: grey;
   cursor: col-resize;
   text-decoration: overline;
 }
